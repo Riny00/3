@@ -1,0 +1,17 @@
+debug/main.o
+debug/widget.o
+debug/weather.o
+debug/parlor.o
+debug/bashroom.o
+debug/kitchen.o
+debug/bedroom.o
+debug/setting.o
+debug/static.o
+debug/mode_select.o
+debug/spider.o
+debug/login.o
+debug/qrc_icon.o
+debug/qrc_qss.o
+debug/moc_widget.o
+debug/moc_spider.o
+debug/moc_login.o

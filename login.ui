@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>859</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget_top_login" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>861</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(142, 227, 235);
+font: 9.5pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>智能家居小助手</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="face_btn">
+    <property name="geometry">
+     <rect>
+      <x>521</x>
+      <y>11</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+	color:white;
+	font:bold;
+	min-width:14ex;
+	min-height:4ex;
+	max-width:36ex;
+	max-height:12ex;</string>
+    </property>
+    <property name="text">
+     <string>人脸录入</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tool_btn">
+    <property name="geometry">
+     <rect>
+      <x>636</x>
+      <y>11</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+	color:white;
+	font:bold;
+	min-width:14ex;
+	min-height:4ex;
+	max-width:36ex;
+	max-height:12ex;</string>
+    </property>
+    <property name="text">
+     <string>工具箱</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="main_btn">
+    <property name="geometry">
+     <rect>
+      <x>752</x>
+      <y>11</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+	color:white;
+	font:bold;
+	min-width:14ex;
+	min-height:4ex;
+	max-width:36ex;
+	max-height:12ex;</string>
+    </property>
+    <property name="text">
+     <string>主页</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget_login">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>861</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page_3">
+    <widget class="QPushButton" name="enter_btn">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>240</y>
+       <width>58</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+	color:white;
+	font:bold;
+	min-width:14ex;
+	min-height:4ex;
+	max-width:36ex;
+	max-height:12ex;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="camera_label">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>0</y>
+       <width>361</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0.5px solid #242424;
+font: italic 25pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>          video</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="open_btn">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>440</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+	color:white;
+	font:bold;
+	min-width:14ex;
+	min-height:4ex;
+	max-width:36ex;
+	max-height:12ex;</string>
+     </property>
+     <property name="text">
+      <string>打开摄像头</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="paizhao_btn">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>440</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+	color:white;
+	font:bold;
+	min-width:14ex;
+	min-height:4ex;
+	max-width:36ex;
+	max-height:12ex;</string>
+     </property>
+     <property name="text">
+      <string>人脸识别</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="camera_label_2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>0</y>
+       <width>311</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid #242424;
+font: italic 20pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>         image</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progressBar">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>460</y>
+       <width>351</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>350</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">
+font: italic 15pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>姓名:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="group_label_2">
+        <property name="styleSheet">
+         <string notr="true">
+font: italic 15pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>400</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="h_layout2">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">
+font: italic 15pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>组号:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="group_label">
+        <property name="styleSheet">
+         <string notr="true">
+font: italic 15pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QLabel" name="camera_label_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>361</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0.5px solid #242424;
+font: italic 25pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>          video</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progressBar_2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>420</y>
+       <width>351</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="open_pic_btn">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>300</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+	color:white;
+	font:bold;
+	min-width:14ex;
+	min-height:4ex;
+	max-width:36ex;
+	max-height:12ex;</string>
+     </property>
+     <property name="text">
+      <string>打开图片</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="register_btn">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>300</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+	color:white;
+	font:bold;
+	min-width:14ex;
+	min-height:4ex;
+	max-width:36ex;
+	max-height:12ex;</string>
+     </property>
+     <property name="text">
+      <string>人脸注册</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>40</y>
+       <width>341</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0.5px solid #242424;
+font: italic 25pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="register_name">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>80</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 16pt &quot;Arial&quot;;
+color: rgb(85, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="register_group">
+     <property name="geometry">
+      <rect>
+       <x>597</x>
+       <y>161</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 16pt &quot;Arial&quot;;
+color: rgb(85, 255, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>469</x>
+       <y>152</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: italic 16pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>group id:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>70</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: italic 16pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>name:</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_button_login" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>570</y>
+     <width>861</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>20</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 9.5pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>智能家居小助手</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>0</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 9.5pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>盐城师范学院</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

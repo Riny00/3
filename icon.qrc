@@ -1,0 +1,61 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/Bedroom.png</file>
+        <file>icon/btncheckoff.png</file>
+        <file>icon/btncheckon.png</file>
+        <file>icon/kitchen.png</file>
+        <file>icon/light_off.png</file>
+        <file>icon/light_on.png</file>
+        <file>icon/Parlor.png</file>
+        <file>icon/Safety.png</file>
+        <file>icon/temp_add.png</file>
+        <file>icon/temp_sub.png</file>
+        <file>icon/clock.png</file>
+        <file>icon/sum.png</file>
+        <file>icon/api.png</file>
+        <file>icon/home.png</file>
+        <file>icon/rootboot.png</file>
+        <file>icon/static.png</file>
+        <file>icon/control.png</file>
+        <file>icon/duoyun.png</file>
+        <file>icon/xiaoxue.png</file>
+        <file>icon/zhongyu.png</file>
+        <file>icon/qing.png</file>
+        <file>icon/qiqya.png</file>
+        <file>icon/xibeif.png</file>
+        <file>icon/shidu.png</file>
+        <file>icon/keting.png</file>
+        <file>icon/yus.png</file>
+        <file>icon/chuf.png</file>
+        <file>icon/wos.png</file>
+        <file>icon/off.png</file>
+        <file>icon/on.png</file>
+        <file>icon/airoff.png</file>
+        <file>icon/kongt.png</file>
+        <file>icon/curtain_close.png</file>
+        <file>icon/curtain_open.png</file>
+        <file>icon/airon.png</file>
+        <file>icon/kt.png</file>
+        <file>icon/youyanon.png</file>
+        <file>icon/youyanoff.png</file>
+        <file>icon/reshuiq.png</file>
+        <file>icon/zhuye.png</file>
+        <file>icon/fou.png</file>
+        <file>icon/dui.png</file>
+        <file>icon/tv_off.png</file>
+        <file>icon/tv_on.png</file>
+        <file>icon/setting.png</file>
+        <file>icon/AI.png</file>
+        <file>icon/ai (2).png</file>
+        <file>icon/home (2).png</file>
+        <file>icon/deng.png</file>
+        <file>icon/shnegd.png</file>
+        <file>icon/dianc.png</file>
+        <file>icon/connect.png</file>
+        <file>icon/disconnect.png</file>
+        <file>icon/camera.png</file>
+        <file>icon/ic_camera.png</file>
+        <file>icon/paizhao.png</file>
+        <file>icon/jiantou.png</file>
+    </qresource>
+</RCC>

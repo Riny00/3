@@ -1,0 +1,17 @@
+release/main.o
+release/widget.o
+release/weather.o
+release/parlor.o
+release/bashroom.o
+release/kitchen.o
+release/bedroom.o
+release/setting.o
+release/static.o
+release/mode_select.o
+release/spider.o
+release/login.o
+release/qrc_icon.o
+release/qrc_qss.o
+release/moc_widget.o
+release/moc_spider.o
+release/moc_login.o

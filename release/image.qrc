@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/api.png</file>
+        <file>icon/clock.png</file>
+        <file>icon/setting.png</file>
+        <file>icon/sum.png</file>
+        <file>icon/control.png</file>
+        <file>icon/static.png</file>
+        <file>icon/晴.png</file>
+        <file>icon/中雨 .png</file>
+        <file>icon/小雪.png</file>
+        <file>icon/多云.png</file>
+        <file>icon/气压.png</file>
+        <file>icon/西北风.png</file>
+        <file>icon/湿度.png</file>
+        <file>icon/客厅.png</file>
+        <file>icon/浴室.png</file>
+        <file>icon/厨房.png</file>
+        <file>icon/卧室.png</file>
+        <file>icon/off.png</file>
+        <file>icon/on.png</file>
+        <file>icon/空调off.png</file>
+        <file>icon/light_off.png</file>
+        <file>icon/light_on.png</file>
+        <file>icon/tv_on.png</file>
+        <file>icon/tv_off.png</file>
+        <file>icon/curtain_close.png</file>
+        <file>icon/curtain_open.png</file>
+        <file>icon/空调on.png</file>
+        <file>icon/btncheckoff.png</file>
+        <file>icon/btncheckon.png</file>
+        <file>icon/temp_add.png</file>
+        <file>icon/temp_sub.png</file>
+        <file>icon/热水器.png</file>
+        <file>icon/主页.png</file>
+        <file>icon/airoff.png</file>
+        <file>icon/youyanon.png</file>
+        <file>icon/youyanoff.png</file>
+        <file>icon/airon.png</file>
+        <file>icon/否认.png</file>
+        <file>icon/正确.png</file>
+        <file>icon/AI.png</file>
+        <file>icon/ai (2).png</file>
+        <file>icon/home (2).png</file>
+        <file>icon/灯.png</file>
+        <file>icon/省电.png</file>
+        <file>icon/电池房.png</file>
+        <file>icon/connect.png</file>
+        <file>icon/disconnect.png</file>
+    </qresource>
+</RCC>
