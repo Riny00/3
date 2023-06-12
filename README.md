@@ -24,40 +24,40 @@ git clone https://github.com/Riny00/SmartHomeAssistant.git
 
 ### 人脸识别页面
 
-![Image text](screen/detect.png)
+![](screen/detect.png)
 
 ### 系统首页
 
-![](screen\home page.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/home%20page.png?raw=true)
 
 ### 服务端连接页面
 
-![QQ图片20230612102940](screen\connect.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/connect.png?raw=true)
 
 ### 控制主界面
 
-![](screen\control.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/control.png?raw=true)
 
 ### 客厅
 
-![1](screen\1.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/1.png?raw=true)
 
 ### 卧室（未开启硬件）
 
-![](screen\5.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/5.png?raw=true)
 
 ### 浴室
 
-![](screen\6.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/6.png?raw=true)
 
 ### 动态温度折线图（未开启硬件）
 
-![](screen\7.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/7.png?raw=true)
 
 ### 实时天气情况
 
-![](screen\8.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/8.png?raw=true)
 
 ### 智能模式
 
-![](screen\9.png)
+![](https://github.com/Riny00/SmartHomeAssistant/blob/main/screen/9.png?raw=true)
