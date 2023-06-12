@@ -24,19 +24,19 @@ git clone https://github.com/Riny00/SmartHomeAssistant.git
 
 ### 人脸识别页面
 
-![Image text](screen/S2~~1NY_5{3J54%IUXL0W4D.png)
+![Image text](screen/detect.png)
 
 ### 系统首页
 
-![](screen\QQ图片20230612102848.png)
+![](screen\home page.png)
 
 ### 服务端连接页面
 
-![QQ图片20230612102940](screen\QQ图片20230612102940.png)
+![QQ图片20230612102940](screen\connect.png)
 
 ### 控制主界面
 
-![](screen\QQ图片20230612103058.png)
+![](screen\control.png)
 
 ### 客厅
 
