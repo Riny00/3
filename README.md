@@ -8,9 +8,9 @@
 
 ## 开发环境
 
-开发系统：Windows 10、阿里云Linux Ubuntu服务器
+​	开发系统：Windows 10、阿里云Linux Ubuntu服务器
 
-软件版本：Qt5.12.2（MSVC 2015,32bit）
+​	软件版本：Qt5.12.2（MSVC 2015,32bit）
 
 
 
